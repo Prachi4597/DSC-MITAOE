@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding:0;
+
+}
+	div
+	{
+
+	background-image:url(r5.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;  
+	height:100vh;
+	background-position:50% 50%;
+	opacity: 1;
+	filter: alpha(opacity=30);
+		}
+	.nav{
+		float: right;
+		list-style: none;
+		margin-top: 30px;
+		margin-right: 80px;
+	}
+	.nav li {
+		display: inline-block;
+
+
+	}
+	.nav li a{
+		color: white;
+		text-decoration: none;
+		padding: 5px 20px;
+		font-size: 20px;
+	}
+	.nav li  a:hover
+	{
+		border: 1px solid black;
+
+	}
+	.logo img
+	{
+      width: 300px;
+      height: auto;
+      float:left;
+      margin-left:1px; 
+	}
