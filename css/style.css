@@ -53,7 +53,8 @@ html{
 	}
 	.logo img
 	{
-      width: 300px;
+      width: 450px;
+		padding:25%;
       height: auto;
       position:fixed;
       float: left; 
