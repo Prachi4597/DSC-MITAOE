@@ -58,7 +58,8 @@ html{
       height: auto;
       position:fixed;
       float: left; 
-      margin-left: 10px;
+      margin-left: auto;
+	margin-left: auto;
       padding: 0
 
 	}
