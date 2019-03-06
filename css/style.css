@@ -6,6 +6,11 @@ html{
 	padding:0;
 
 }
+#over img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 	div
 	{
 
