@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 *{
 	margin: 0;
 	padding:0;
@@ -14,7 +17,8 @@
 	background-position:50% 50%;
 	opacity: 1;
 	filter: alpha(opacity=30);
-		}
+	  }
+
 	.nav{
 		float: right;
 		list-style: none;
@@ -37,10 +41,92 @@
 		border: 1px solid black;
 
 	}
+	h2{
+
+		margin: 0;
+		padding-top:25%;
+		font-size: 50px;
+		text-align:center;
+		color: white;
+		float: center;
+		font-family: Arial, Helvetica, sans-serif;
+	}
 	.logo img
 	{
       width: 300px;
       height: auto;
-      float:left;
-      margin-left:1px; 
+      position:fixed;
+      float: left; 
+      margin-left: 10px;
+      padding: 0
+
 	}
+	
+	#sec1{
+		
+		height: 700px;
+		display: inline-block;
+		text-align: center;
+		width:100%;
+		padding-top: 0;
+		}
+	
+	.GD img
+	{
+      width: 400px;
+      height: auto;
+      position:static;
+      padding-top: 20%;
+      float:left;
+      margin-left: 0%;
+	}
+	h1{
+
+		margin: 0;
+		padding-top:20%;
+		font-size: 30px;
+		text-align:center;
+		color: white;
+		float: center;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	p{
+		font-size: 20px;
+		color: white;
+		text-align:center;
+		padding-left: 140px;
+		padding-top: 15px;
+	
+	}
+	
+	#sec2{
+		height: 800px;
+		display: inline-block;
+		width:100%;
+		padding-top: 60px;
+		}
+	section{
+		padding-top: 40%
+		text-align-last: left;
+		font-size: 40px;
+		color:white;
+		float: center ;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		p{
+			float:center;
+			color:pink; 
+		}
+
+		 #sec3{
+		height: 800px;
+		display: inline-block;
+		width:100%;
+		}
+	#sec5{
+		height: 700px;
+		display: inline-block;
+		width:100%;
+		float: left;
+		}	
+	
