@@ -9,7 +9,7 @@ html{
 	div
 	{
 
-	background-image:url(r5.jpg);
+	background-image:url('../Img/r5.jpg');
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-size:cover;  
