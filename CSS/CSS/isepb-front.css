@@ -1,0 +1,314 @@
+/* Frontend styles */
+
+.isepb-front-slider-single{
+
+}
+
+.isepb-front-slider-single img{
+
+}
+
+.isepb-clear{
+	clear: both;
+}
+
+.slider-container{
+	width: auto !important;
+}
+
+.slider-canvas img{
+	margin-left: auto !important;
+}
+
+.slider-list{
+	margin: auto !important;
+}
+
+/*.isepb-slider-active div{
+    max-width: 100% !important;
+}*/
+
+/* Styles for Jssor */
+
+/* jssor slider arrow navigator */
+
+/* Skin 01 */
+.jssora01l, .jssora01r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    background: url(../images/arrows/a01.png) no-repeat;
+    overflow: hidden;
+}
+.jssora01l { background-position: -8px -38px; }
+.jssora01r { background-position: -68px -38px; }
+
+.jssora01l:hover { background-position: -128px -38px; }
+.jssora01r:hover { background-position: -188px -38px; }
+.jssora01l.jssora01ldn { background-position: -8px -38px; }
+.jssora01r.jssora01rdn { background-position: -68px -38px; }
+
+/* Skin 02 */
+.jssora02l, .jssora02r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url(../images/arrows/a02.png) no-repeat;
+    overflow: hidden;
+}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02l.jssora02ldn { background-position: -3px -33px; }
+.jssora02r.jssora02rdn { background-position: -63px -33px; }
+
+/* Skin 03 */            
+.jssora03l, .jssora03r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url(../images/arrows/a03.png) no-repeat;
+    overflow: hidden;
+}
+.jssora03l { background-position: -3px -33px; }
+.jssora03r { background-position: -63px -33px; }
+.jssora03l:hover { background-position: -123px -33px; }
+.jssora03r:hover { background-position: -183px -33px; }
+.jssora03l.jssora03ldn { background-position: -243px -33px; }
+.jssora03r.jssora03rdn { background-position: -303px -33px; }
+
+/* Skin 04 */   
+/* jssor slider arrow navigator skin 08 css */
+/*
+.jssora08l                  (normal)
+.jssora08r                  (normal)
+.jssora08l:hover            (normal mouseover)
+.jssora08r:hover            (normal mouseover)
+.jssora08l.jssora08ldn      (mousedown)
+.jssora08r.jssora08rdn      (mousedown)
+*/
+.jssora08l, .jssora08r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: url(../images/arrows/a08.png) no-repeat;
+    overflow: hidden;
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+.jssora08l { background-position: -5px -35px; }
+.jssora08r { background-position: -65px -35px; }
+.jssora08l:hover { background-position: -5px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssora08r:hover { background-position: -65px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssora08l.jssora08ldn { background-position: -5px -35px; opacity: .3; filter:alpha(opacity=30); }
+.jssora08r.jssora08rdn { background-position: -65px -35px; opacity: .3; filter:alpha(opacity=30); }
+
+/* Skin 05 */   
+/* jssor slider arrow navigator skin 09 css */
+/*
+.jssora09l                  (normal)
+.jssora09r                  (normal)
+.jssora09l:hover            (normal mouseover)
+.jssora09r:hover            (normal mouseover)
+.jssora09l.jssora09ldn      (mousedown)
+.jssora09r.jssora09rdn      (mousedown)
+*/
+.jssora09l, .jssora09r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: url(../images/arrows/a09.png) no-repeat;
+    overflow: hidden;
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+.jssora09l { background-position: -5px -35px; }
+.jssora09r { background-position: -65px -35px; }
+.jssora09l:hover { background-position: -5px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssora09r:hover { background-position: -65px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssora09l.jssora09ldn { background-position: -5px -35px; opacity: .3; filter:alpha(opacity=30); }
+.jssora09r.jssora09rdn { background-position: -65px -35px; opacity: .3; filter:alpha(opacity=30); }
+
+
+/* Thumbnail navigators */
+
+/* Skin 01 */
+/* jssor slider thumbnail navigator skin 01 css */
+/*
+.jssort01 .p            (normal)
+.jssort01 .p:hover      (normal mouseover)
+.jssort01 .p.pav        (active)
+.jssort01 .p.pdn        (mousedown)
+*/
+.jssort01 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 72px;
+}
+
+.jssort01 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.jssort01 .w {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.jssort01 .c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 68px;
+    height: 68px;
+    border: #000 2px solid;
+    box-sizing: content-box;
+    background: url('../images/thumbs/t01.png') -500px -500px no-repeat;
+    _background: none;
+}
+
+.jssort01 .pav .c {
+    top: 2px;
+    _top: 0px;
+    left: 2px;
+    _left: 0px;
+    width: 68px;
+    height: 68px;
+    border: #000 0px solid;
+    _border: #fff 2px solid;
+    background-position: 50% 50%;
+}
+
+.jssort01 .p:hover .c {
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+    border: #fff 1px solid;
+    background-position: 50% 50%;
+}
+
+.jssort01 .p.pdn .c {
+    background-position: 50% 50%;
+    width: 68px;
+    height: 68px;
+    border: #000 2px solid;
+}
+
+* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {
+    /* ie quirks mode adjust */
+    width /**/: 72px;
+    height /**/: 72px;
+}
+
+
+
+
+.jssort16 .p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100px;
+        }
+        
+        .jssort16 .t {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100px;
+            border: none;
+        }
+        
+        .jssort16 .p img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100px;
+            filter: alpha(opacity=55);
+            opacity: .55;
+            transition: opacity .6s;
+            -moz-transition: opacity .6s;
+            -webkit-transition: opacity .6s;
+            -o-transition: opacity .6s;
+        }
+        
+        .jssort16 .pav img, .jssort16 .pav:hover img, .jssort16 .p:hover img {
+            filter: alpha(opacity=100);
+            opacity: 1;
+            transition: none;
+            -moz-transition: none;
+            -webkit-transition: none;
+            -o-transition: none;
+        }
+        
+        .jssort16 .pav:hover img, .jssort16 .p:hover img {
+            filter: alpha(opacity=70);
+            opacity: .7;
+        }
+        
+        .jssort16 .title, .jssort16 .title_back {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 200px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #000;
+            font-size: 20px;
+        }
+        
+        .jssort16 .title_back {
+            background-color: #fff;
+            filter: alpha(opacity=50);
+            opacity: .5;
+        }
+        
+        .jssort16 .pav .title_back {
+            background-color: #000;
+            filter: alpha(opacity=50);
+            opacity: .5;
+        }
+        
+        .jssort16 .pav .title {
+            color: #fff;
+        }
+        
+        .jssort16 .p.pav:hover .title_back, .jssort16 .p:hover .title_back {
+            filter: alpha(opacity=40);
+            opacity: .4;
+        }
+        
+        .jssort16 .p.pdn img {
+            filter: alpha(opacity=100);
+            opacity: 1;
+        }
